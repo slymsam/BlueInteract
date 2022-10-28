@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#aabbdd"
+android:layout_alignParentRight="true"
+android:orientation="horizontal"
+android:paddingBottom="2dp"
+android:paddingLeft="5dp"
+android:paddingRight="5dp"
+android:paddingTop="2dp">
+
+    <ImageView
+        android:id="@+id/emojiGallery"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"
+        />
+<hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+    android:id="@+id/message_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/left"
+    android:padding="10dp"
+    android:textSize="15dp"
+    android:text="Androidion"
+    android:textColor="#000000"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" >
+
+
+</hani.momanii.supernova_emoji_library.Helper.EmojiconTextView>
+
+
+
+
+</RelativeLayout>
